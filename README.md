@@ -10,23 +10,14 @@ Using open Adb ports we can exploit a device
 <br> you can find open ports here https://www.shodan.io/search?query=android+debug+bridge+product%3A”Android+Debug+Bridge”
 <br>
 <br> To find out how to access a local device --> https://www.youtube.com/watch?v=OlhCAX1qBQo
-
-
-# HOW TO INSTALL WINDOWS
-```
-git clone https://github.com/Zucccs/PhoneSploit
-extract adb.rar to the phonesploit directory 
-cd PhoneSploit
-pip install colorama
-python2 main.py
 ```
 
 # HOW TO INSTALL Linux
 ```
-git clone https://github.com/Zucccs/PhoneSploit
-cd PhoneSploit
+git clone https://github.com/SirCryptic/PS
+cd PS
 pip install colorama
-python2 main_linux.py
+python2 ps.py
 ```
 # IF ADB NOT FOUND
 sudo apt update
@@ -40,7 +31,4 @@ sudo apt install android-tools-adb android-tools-fastboot
 # ScreenShots
 ![Screenshot](Screenshot.png)
 
-sircryptic - made it easier for end user to run
-
-cd PS
-python2 ps.py
+sircryptic - made it easier for end user to run // linux only ( no windows support from me on this one sorry )
