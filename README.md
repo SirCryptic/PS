@@ -11,6 +11,21 @@ Using open Adb ports we can exploit a device
 <br>
 <br> To find out how to access a local device --> https://www.youtube.com/watch?v=OlhCAX1qBQo
 
+# HOW TO INSTALL PIP / Please install first
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+sudo python get-pip.py
+
+- After you done installing, run this command to check if pip is installed.
+
+pip --version
+
+- Remove get-pip.py file after installing pip.
+
+rm get-pip.py
+
+- You can check out more info here --> https://pip.pypa.io/
 
 # HOW TO INSTALL Linux
 ```
@@ -22,8 +37,6 @@ python2 ps.py
 # IF ADB NOT FOUND
 sudo apt update
 sudo apt install android-tools-adb android-tools-fastboot
-
-
 
 # VIDEO
 [![Watch the video](https://img.youtube.com/vi/6XNf9s-PZxY/hqdefault.jpg)](https://www.youtube.com/watch?v=6XNf9s-PZxY)
