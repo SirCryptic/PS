@@ -1,7 +1,6 @@
 #-*- coding: utf-8 -*-
 
 #Coded By Zucccs
-#Re-Coded By Sir Cryptic
 # Enjoy
 
 
